@@ -40,10 +40,34 @@ a:focus {
   margin: 0;
 }
 
+#logo {
+  display: block;
+}
+
+#logo-with-text {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
 /* Tablet */
 @media screen and (min-width: 576px) {
   html {
     font-size: 16px;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #logo-with-text {
+    display: block;
   }
 }
 
