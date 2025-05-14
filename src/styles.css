@@ -1,12 +1,13 @@
+/* Base styles (which will also be applied to mobile devices, as we are using mobile-first design */
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 1em;
   color: #444444;
 }
 
@@ -14,7 +15,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #222222;
-
 }
 
 h1 { font-size: 2.5rem; }
@@ -23,6 +23,50 @@ h3 { font-size: 1.75rem; }
 h4 { font-size: 1.5rem; }
 h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
+
+a {
+  text-decoration: none;
+  color: #3b82f6;
+}
+
+a:hover,
+a:focus {
+  color: #1d4ed8;
+}
+
+/* ----- NAVBAR ----- */
+#navbar {
+  padding: 0px;
+  margin: 0;
+}
+
+/* Tablet */
+@media screen and (min-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Medium Desktop */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1200px) {
+
+}
+
+/*
+
+
 
 
 a {
@@ -177,4 +221,4 @@ h3 {
   color: #71717A;
   font-size: 0.875rem;
 }
-
+*/
