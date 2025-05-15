@@ -48,10 +48,11 @@ a:focus {
   display: none;
 }
 
-
-
-
-
+#banner {
+  object-fit: cover;
+  height: 120px;
+  width: 100%;
+}
 
 
 
@@ -69,21 +70,26 @@ a:focus {
   #logo-with-text {
     display: block;
   }
+
+  #banner {
+    height: 200px;
+  }
 }
 
 /* Desktop */
 @media screen and (min-width: 768px) {
-
-}
-
-/* Medium Desktop */
-@media screen and (min-width: 992px) {
-  html {
-    font-size: 20px;
+  #banner {
+    height: 280px;
   }
 }
 
 /* Large Desktop */
+@media screen and (min-width: 992px) {
+
+
+}
+
+/* XL Desktop */
 @media screen and (min-width: 1200px) {
 
 }
@@ -107,9 +113,7 @@ a:hover, a:focus {
   margin: 0;
 }
 
-#banner {
-  object-fit: cover;
-}
+
 
 
 h1 {
