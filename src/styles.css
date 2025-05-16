@@ -117,10 +117,72 @@ h2 {
   color: #555555;
 }
 
+#application {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.form-group {
+  margin: 16px 0;
+}
+
+.form-group label {
+  font-weight: 600;
+}
+
+.form-group input, select, textarea {
+  width: 90%;
+  padding: 8px;
+  font-size: 1.25rem;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.form-group textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #3B82F6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
 
 
 
-/* Tablet */
+#footer {
+  background-color: #E2E8F0;
+  padding: 8px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+#footer-links {
+  list-style: none; 
+  padding-left: 0; 
+}
+
+#footer-links li {
+  margin: 8px 16px;
+}
+
+.copyright {
+  color: #71717A;
+  font-size: 0.875rem;
+}
+
+
+
+
+/* Sm device - Tablet */
 @media screen and (min-width: 576px) {
   html {
     font-size: 16px;
@@ -136,6 +198,17 @@ h2 {
   }
   h1 {
     margin: 16px 0;
+  }
+  .form-group input, select {
+    width: auto;
+  }
+
+  .form-group textarea {
+    width: 80%;
+  }
+  #footer-links li{
+    display: inline;
+    margin: 0 16px;
   }
 }
 
@@ -197,89 +270,4 @@ h2 {
 
 }
 
-/*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#application {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 8px;
-}
-
-.form-group {
-  margin: 16px 0;
-}
-
-#application-form label {
-  font-weight: 600;
-}
-
-#application-form input, select, textarea {
-  padding: 8px;
-  font-size: 1.25rem;
-  margin-top: 4px;
-  border-radius: 5px;
-  border: 1px solid gray;
-}
-
-.form-group textarea {
-  width: 80%;
-  font-family: 'Roboto', sans-serif;
-}
-
-.form-group input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
-}
-
-.form-group input[type="submit"] {
-  background-color: #3B82F6;
-  color: white;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-
-
-h3 {
-  margin-bottom: 4px;
-  margin-top: 0;
-}
-
-.apply {
-  float: right;
-}
-
-#footer {
-  background-color: #E2E8F0;
-  padding: 8px;
-  margin-top: 32px;
-  text-align: center;
-}
-
-#footer-links {
-  list-style: none;  
-}
-
-#footer-links li {
-  display: inline;
-  margin: 0 16px;
-}
-
-.copyright {
-  color: #71717A;
-  font-size: 0.875rem;
-}
-*/
