@@ -99,7 +99,23 @@ h2 {
   display: none;
 }
 
+.job {
+  border: 1p solid #dddddd;
+  margin-top: 8px;
+  border-radius: 5px;
+  padding: 8px;
+}
 
+.job-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #222222;
+}
+
+.job-detail {
+  margin-top: 4px;
+  color: #555555;
+}
 
 
 
